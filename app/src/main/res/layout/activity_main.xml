@@ -8,12 +8,12 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="net.somtic.masviews.MainActivity"
-    android:onClick="sePulsa">
+    tools:context="net.somtic.masviews.MainActivity">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
-        android:background="@drawable/boton" />
+        android:background="@drawable/boton"
+        android:onClick="sePulsa" />
 </LinearLayout>
